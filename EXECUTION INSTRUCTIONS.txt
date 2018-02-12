@@ -1,0 +1,6 @@
+To execute this process:
+ - run ./omp (array size) (# of threads) - e.g ./omp 5000 5
+
+Or read report section 1 for more instructions
+
+If any errors persist ensure it is being run on ssh1.csc.liv.ac.uk

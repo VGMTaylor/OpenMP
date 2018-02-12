@@ -213,14 +213,6 @@ int main(int argc, char** argv)
 			p_calculationTime = p_calculationTime_stop - p_calculationTime_start;
 			double overallTime = calculationTime + initializationTime;
 			double p_overallTime = p_calculationTime + p_initializationTime;
-
-			// Print out results
-			printf("\n-------------------------------------------------------------------\n");
-    		printf("\t\t\tMPI IMPLEMENTATION\n");
-    		printf("-------------------------------------------------------------------\n");
-			printf("Initialisation Time: %f\n", p_initializationTime_stop - p_initializationTime_start);
-			printf("Calculation Time: %f\n", p_calculationTime_stop - p_calculationTime_start);		
-			printf("Overall Time: %f\n", (p_calculationTime_stop - p_calculationTime_start) + (p_initializationTime_stop - p_initializationTime_start));	
 		
 			// Write timing file
 			FILE* mpiResults;
